@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#6d6af5" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="沟通工具箱" />
+  <title>伴侣沟通工具箱</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="appShell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Couple Communication Toolbox</p>
+        <h1 id="pageTitle">伴侣沟通工具箱</h1>
+      </div>
+      <button id="syncBtn" class="iconBtn" title="同步">↻</button>
+    </header>
+
+    <main id="app" class="app"></main>
+
+    <nav class="bottomNav" aria-label="主导航">
+      <button data-route="home" class="navItem active">⌂<span>首页</span></button>
+      <button data-route="start" class="navItem">＋<span>开始</span></button>
+      <button data-route="assist" class="navItem">✦<span>进行中</span></button>
+      <button data-route="review" class="navItem">✓<span>复盘</span></button>
+      <button data-route="records" class="navItem">≡<span>记录</span></button>
+    </nav>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

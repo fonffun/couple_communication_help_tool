@@ -1,0 +1,17 @@
+{
+  "name": "couple-communication-toolbox-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A mobile-first shared PWA for couple communication planning, in-conversation assistance, review scoring, monthly question board, and shared records.",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}

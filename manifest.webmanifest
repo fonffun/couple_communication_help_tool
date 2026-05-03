@@ -1,0 +1,14 @@
+{
+  "name": "伴侣沟通工具箱",
+  "short_name": "沟通工具箱",
+  "description": "用于伴侣沟通开始前、进行中、结束后的共享 PWA 工具箱。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f4ff",
+  "theme_color": "#6d6af5",
+  "icons": [
+    { "src": "/assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
